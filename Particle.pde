@@ -1,6 +1,5 @@
 // start code from Daniel Shiffman http://codingtra.in
 
-
 class Particle {
   PVector location;
   PVector velocity;
@@ -65,15 +64,14 @@ class Particle {
   void display() {
     stroke(hu, 255, 255, lifespan);
     if (seed) {
-      strokeWeight(4);
+      strokeWeight(70);
     } else {
-      strokeWeight(2);
+      strokeWeight(20);
     }
     pushMatrix();
     translate(location.x, location.y, location.z);
     point(0, 0);
     popMatrix();
-    //ellipse(location.x, location.y, 12, 12);
   }
 
   // Is the particle still useful?

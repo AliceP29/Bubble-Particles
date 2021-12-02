@@ -1,4 +1,3 @@
-// Daniel Shiffman
 // start code from Daniel Shiffman http://codingtra.in
 
 
@@ -46,19 +45,19 @@ void draw() {
     fireworks.add(new Firework());
   }
 
-  background(0);
+  background(360);
   translate(width/2, height, -1000);
 
   // Floor
-  stroke(255);
-  strokeWeight(1);
-  fill(51);
-  beginShape();
-  vertex(-width, height/2, -800);
-  vertex(width, height/2, -800);
-  vertex(width, height/2, 800);
-  vertex(-width, height/2, 800);
-  endShape(CLOSE);
+  //stroke(255);
+  //strokeWeight(1);
+  //fill(51);
+  //beginShape();
+  //vertex(-width, height/2, -800);
+  //vertex(width, height/2, -800);
+  //vertex(width, height/2, 800);
+  //vertex(-width, height/2, 800);
+  //endShape(CLOSE);
 
 
   for (int i = fireworks.size()-1; i >= 0; i--) {

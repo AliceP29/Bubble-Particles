@@ -11,7 +11,7 @@ class Firework {
 
   Firework() {
     hu = random(255);
-    firework = new Particle(random(-width/2, width/2), height/2, random(-800, 800), 80);
+    firework = new Particle(random(-width/2, width/2), height/2, random(-800, 800), hu);
     particles = new ArrayList<Particle>();   // Initialize the arraylist
   }
 
